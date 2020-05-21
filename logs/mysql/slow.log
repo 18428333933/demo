@@ -1,0 +1,1489 @@
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 2018-11-23T08:18:07.207566Z
+# User@Host: root[root] @ localhost []  Id:     3
+# Query_time: 5.832968  Lock_time: 0.000247 Rows_sent: 0  Rows_examined: 0
+use mysql;
+SET timestamp=1542961087;
+INSERT INTO time_zone_transition (Time_zone_id, Transition_time, Transition_type_id) VALUES
+ (@time_zone_id, -2147483648, 0)
+,(@time_zone_id, -1262281242, 1)
+,(@time_zone_id, 136360803, 2)
+,(@time_zone_id, 152082003, 1)
+,(@time_zone_id, 167810404, 2)
+,(@time_zone_id, 183531604, 1)
+,(@time_zone_id, 199260005, 2)
+,(@time_zone_id, 215586005, 1)
+,(@time_zone_id, 230709606, 2)
+,(@time_zone_id, 247035606, 1)
+,(@time_zone_id, 262764007, 2)
+,(@time_zone_id, 278485207, 1)
+,(@time_zone_id, 294213608, 2)
+,(@time_zone_id, 309934808, 1)
+,(@time_zone_id, 325663209, 2)
+,(@time_zone_id, 341384409, 1)
+,(@time_zone_id, 357112809, 2)
+,(@time_zone_id, 372834010, 1)
+,(@time_zone_id, 388562410, 2)
+,(@time_zone_id, 404888411, 1)
+,(@time_zone_id, 420012011, 2)
+,(@time_zone_id, 436338012, 1)
+,(@time_zone_id, 452066412, 2)
+,(@time_zone_id, 467787612, 1)
+,(@time_zone_id, 483516012, 2)
+,(@time_zone_id, 499237213, 1)
+,(@time_zone_id, 514965613, 2)
+,(@time_zone_id, 530686813, 1)
+,(@time_zone_id, 544600813, 2)
+,(@time_zone_id, 562136413, 1)
+,(@time_zone_id, 576050414, 2)
+,(@time_zone_id, 594190814, 1)
+,(@time_zone_id, 607500014, 2)
+,(@time_zone_id, 625640414, 1)
+,(@time_zone_id, 638949615, 2)
+,(@time_zone_id, 657090015, 1)
+,(@time_zone_id, 671004016, 2)
+,(@time_zone_id, 688539616, 1)
+,(@time_zone_id, 702453616, 2)
+,(@time_zone_id, 719989217, 1)
+,(@time_zone_id, 733903217, 2)
+,(@time_zone_id, 752043618, 1)
+,(@time_zone_id, 765352818, 2)
+,(@time_zone_id, 783493219, 1)
+,(@time_zone_id, 796802419, 2)
+,(@time_zone_id, 814942819, 1)
+,(@time_zone_id, 828856820, 2)
+,(@time_zone_id, 846392420, 1)
+,(@time_zone_id, 860306420, 2)
+,(@time_zone_id, 877842021, 1)
+,(@time_zone_id, 891756021, 2)
+,(@time_zone_id, 909291621, 1)
+,(@time_zone_id, 923205622, 2)
+,(@time_zone_id, 941346022, 1)
+,(@time_zone_id, 954655222, 2)
+,(@time_zone_id, 972795622, 1)
+,(@time_zone_id, 986104822, 2)
+,(@time_zone_id, 1004245222, 1)
+,(@time_zone_id, 1018159222, 2)
+,(@time_zone_id, 1035694822, 1)
+,(@time_zone_id, 1049608822, 2)
+,(@time_zone_id, 1067144422, 1)
+,(@time_zone_id, 1081058422, 2)
+,(@time_zone_id, 1099198822, 1)
+,(@time_zone_id, 1112508022, 2)
+,(@time_zone_id, 1130648422, 1)
+,(@time_zone_id, 1143957623, 2)
+,(@time_zone_id, 1162098023, 1)
+,(@time_zone_id, 1173592823, 2)
+,(@time_zone_id, 1194152423, 1)
+,(@time_zone_id, 1205042423, 2)
+,(@time_zone_id, 1225602023, 1)
+,(@time_zone_id, 1236492024, 2)
+,(@time_zone_id, 1257051624, 1)
+,(@time_zone_id, 1268546424, 2)
+,(@time_zone_id, 1289106024, 1)
+,(@time_zone_id, 1299996024, 2)
+,(@time_zone_id, 1320555624, 1)
+,(@time_zone_id, 1331445624, 2)
+,(@time_zone_id, 1352005225, 1)
+,(@time_zone_id, 1362895225, 2)
+,(@time_zone_id, 1383454825, 1)
+,(@time_zone_id, 1394344825, 2)
+,(@time_zone_id, 1414904425, 1)
+,(@time_zone_id, 1425794425, 2)
+,(@time_zone_id, 1446354026, 1)
+,(@time_zone_id, 1457848826, 2)
+,(@time_zone_id, 1478408426, 1)
+,(@time_zone_id, 1489298427, 2)
+,(@time_zone_id, 1509858027, 1)
+,(@time_zone_id, 1520748027, 2)
+,(@time_zone_id, 1541307627, 1)
+,(@time_zone_id, 1552197627, 2)
+,(@time_zone_id, 1572757227, 1)
+,(@time_zone_id, 1583647227, 2)
+,(@time_zone_id, 1604206827, 1)
+,(@time_zone_id, 1615701627, 2)
+,(@time_zone_id, 1636261227, 1)
+,(@time_zone_id, 1647151227, 2)
+,(@time_zone_id, 1667710827, 1)
+,(@time_zone_id, 1678600827, 2)
+,(@time_zone_id, 1699160427, 1)
+,(@time_zone_id, 1710050427, 2)
+,(@time_zone_id, 1730610027, 1)
+,(@time_zone_id, 1741500027, 2)
+,(@time_zone_id, 1762059627, 1)
+,(@time_zone_id, 1772949627, 2)
+,(@time_zone_id, 1793509227, 1)
+,(@time_zone_id, 1805004027, 2)
+,(@time_zone_id, 1825563627, 1)
+,(@time_zone_id, 1836453627, 2)
+,(@time_zone_id, 1857013227, 1)
+,(@time_zone_id, 1867903227, 2)
+,(@time_zone_id, 1888462827, 1)
+,(@time_zone_id, 1899352827, 2)
+,(@time_zone_id, 1919912427, 1)
+,(@time_zone_id, 1930802427, 2)
+,(@time_zone_id, 1951362027, 1)
+,(@time_zone_id, 1962856827, 2)
+,(@time_zone_id, 1983416427, 1)
+,(@time_zone_id, 1994306427, 2)
+,(@time_zone_id, 2014866027, 1)
+,(@time_zone_id, 2025756027, 2)
+,(@time_zone_id, 2046315627, 1)
+,(@time_zone_id, 2057205627, 2)
+,(@time_zone_id, 2077765227, 1)
+,(@time_zone_id, 2088655227, 2)
+,(@time_zone_id, 2109214827, 1)
+,(@time_zone_id, 2120104827, 2)
+,(@time_zone_id, 2140664427, 1);
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 2018-11-23T08:57:26.516514Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     3
+# Query_time: 0.037060  Lock_time: 0.025566 Rows_sent: 1  Rows_examined: 49
+use jy;
+SET timestamp=1542963446;
+SELECT COUNT(*) FROM information_schema.TABLES WHERE TABLE_SCHEMA = 'jy' UNION SELECT COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'jy' UNION SELECT COUNT(*) FROM information_schema.ROUTINES WHERE ROUTINE_SCHEMA = 'jy';
+# Time: 2018-11-23T08:57:26.520773Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     3
+# Query_time: 0.002881  Lock_time: 0.000164 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1542963446;
+SELECT TABLE_SCHEMA, TABLE_NAME, TABLE_TYPE FROM information_schema.TABLES WHERE TABLE_SCHEMA = 'jy' ORDER BY TABLE_SCHEMA, TABLE_TYPE;
+# Time: 2018-11-23T08:57:26.523844Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     3
+# Query_time: 0.002377  Lock_time: 0.000565 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1542963446;
+SELECT TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, COLUMN_TYPE FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'jy' ORDER BY TABLE_SCHEMA, TABLE_NAME;
+# Time: 2018-11-23T08:57:26.527923Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     3
+# Query_time: 0.003405  Lock_time: 0.000918 Rows_sent: 0  Rows_examined: 48
+SET timestamp=1542963446;
+SELECT DISTINCT ROUTINE_SCHEMA, ROUTINE_NAME, PARAMS.PARAMETER FROM information_schema.ROUTINES LEFT JOIN ( SELECT SPECIFIC_SCHEMA, SPECIFIC_NAME, GROUP_CONCAT(CONCAT(DATA_TYPE, ' ', PARAMETER_NAME) ORDER BY ORDINAL_POSITION SEPARATOR ', ') PARAMETER, ROUTINE_TYPE FROM information_schema.PARAMETERS GROUP BY SPECIFIC_SCHEMA, SPECIFIC_NAME, ROUTINE_TYPE ) PARAMS ON ROUTINES.ROUTINE_SCHEMA = PARAMS.SPECIFIC_SCHEMA AND ROUTINES.ROUTINE_NAME = PARAMS.SPECIFIC_NAME AND ROUTINES.ROUTINE_TYPE = PARAMS.ROUTINE_TYPE WHERE ROUTINE_SCHEMA = 'jy' ORDER BY ROUTINE_SCHEMA;
+# Time: 2018-11-23T09:01:42.182093Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.567846  Lock_time: 0.565580 Rows_sent: 3  Rows_examined: 1140
+use sys;
+SET timestamp=1542963702;
+SELECT COUNT(*) FROM information_schema.TABLES WHERE TABLE_SCHEMA = 'sys' UNION SELECT COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'sys' UNION SELECT COUNT(*) FROM information_schema.ROUTINES WHERE ROUTINE_SCHEMA = 'sys';
+# Time: 2018-11-23T09:01:42.213664Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.013883  Lock_time: 0.000470 Rows_sent: 101  Rows_examined: 202
+SET timestamp=1542963702;
+SELECT TABLE_SCHEMA, TABLE_NAME, TABLE_TYPE FROM information_schema.TABLES WHERE TABLE_SCHEMA = 'sys' ORDER BY TABLE_SCHEMA, TABLE_TYPE;
+# Time: 2018-11-23T09:01:42.251035Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.035020  Lock_time: 0.000559 Rows_sent: 988  Rows_examined: 1976
+SET timestamp=1542963702;
+SELECT TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, COLUMN_TYPE FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'sys' ORDER BY TABLE_SCHEMA, TABLE_NAME;
+# Time: 2018-11-23T09:01:42.272745Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.006258  Lock_time: 0.002862 Rows_sent: 48  Rows_examined: 310
+SET timestamp=1542963702;
+SELECT DISTINCT ROUTINE_SCHEMA, ROUTINE_NAME, PARAMS.PARAMETER FROM information_schema.ROUTINES LEFT JOIN ( SELECT SPECIFIC_SCHEMA, SPECIFIC_NAME, GROUP_CONCAT(CONCAT(DATA_TYPE, ' ', PARAMETER_NAME) ORDER BY ORDINAL_POSITION SEPARATOR ', ') PARAMETER, ROUTINE_TYPE FROM information_schema.PARAMETERS GROUP BY SPECIFIC_SCHEMA, SPECIFIC_NAME, ROUTINE_TYPE ) PARAMS ON ROUTINES.ROUTINE_SCHEMA = PARAMS.SPECIFIC_SCHEMA AND ROUTINES.ROUTINE_NAME = PARAMS.SPECIFIC_NAME AND ROUTINES.ROUTINE_TYPE = PARAMS.ROUTINE_TYPE WHERE ROUTINE_SCHEMA = 'sys' ORDER BY ROUTINE_SCHEMA;
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 2018-11-30T07:45:49.440029Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     2
+# Query_time: 0.070914  Lock_time: 0.000105 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543563949;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T07:45:49.582254Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     4
+# Query_time: 0.076017  Lock_time: 0.000107 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543563949;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T07:45:49.598751Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     4
+# Query_time: 0.000639  Lock_time: 0.000193 Rows_sent: 1  Rows_examined: 88
+SET timestamp=1543563949;
+SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''root''@''%''' LIKE `GRANTEE` LIMIT 1;
+# Time: 2018-11-30T07:45:49.600035Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     4
+# Query_time: 0.000471  Lock_time: 0.000081 Rows_sent: 1  Rows_examined: 55
+SET timestamp=1543563949;
+SELECT 1 FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE `PRIVILEGE_TYPE` = 'CREATE USER' AND '''root''@''%''' LIKE `GRANTEE` LIMIT 1;
+# Time: 2018-11-30T07:45:49.619830Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     4
+# Query_time: 0.000233  Lock_time: 0.000080 Rows_sent: 41  Rows_examined: 41
+use mysql;
+SET timestamp=1543563949;
+SELECT `CHARACTER_SET_NAME` AS `Charset`, `DESCRIPTION` AS `Description` FROM `information_schema`.`CHARACTER_SETS`;
+# Time: 2018-11-30T07:45:49.621031Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     4
+# Query_time: 0.000385  Lock_time: 0.000058 Rows_sent: 222  Rows_examined: 222
+SET timestamp=1543563949;
+SELECT `CHARACTER_SET_NAME` AS `Charset`, `COLLATION_NAME` AS `Collation`, `IS_DEFAULT` AS `Default` FROM `information_schema`.`COLLATIONS`;
+# Time: 2018-11-30T07:45:49.766579Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     4
+# Query_time: 0.130903  Lock_time: 0.000227 Rows_sent: 5  Rows_examined: 40
+SET timestamp=1543563949;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`, (SELECT DB_first_level FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t ORDER BY DB_first_level ASC LIMIT 0, 100) t2 WHERE TRUE AND 1 = LOCATE(CONCAT(DB_first_level, '_'), CONCAT(SCHEMA_NAME, '_')) ORDER BY SCHEMA_NAME ASC;
+# Time: 2018-11-30T07:45:49.827720Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     4
+# Query_time: 0.060482  Lock_time: 0.000176 Rows_sent: 1  Rows_examined: 15
+SET timestamp=1543563949;
+SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t;
+# Time: 2018-11-30T07:45:49.894184Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     4
+# Query_time: 0.066016  Lock_time: 0.000104 Rows_sent: 1  Rows_examined: 15
+SET timestamp=1543563949;
+SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t;
+# Time: 2018-11-30T07:45:50.597868Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     6
+# Query_time: 0.068394  Lock_time: 0.000149 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543563950;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T07:45:50.770159Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     8
+# Query_time: 0.070466  Lock_time: 0.000063 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543563950;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T07:45:50.889727Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     8
+# Query_time: 0.115336  Lock_time: 0.000138 Rows_sent: 5  Rows_examined: 40
+SET timestamp=1543563950;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`, (SELECT DB_first_level FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t ORDER BY DB_first_level ASC LIMIT 0, 100) t2 WHERE TRUE AND 1 = LOCATE(CONCAT(DB_first_level, '_'), CONCAT(SCHEMA_NAME, '_')) ORDER BY SCHEMA_NAME ASC;
+# Time: 2018-11-30T07:45:50.945757Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     8
+# Query_time: 0.055198  Lock_time: 0.000106 Rows_sent: 1  Rows_examined: 15
+SET timestamp=1543563950;
+SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t;
+# Time: 2018-11-30T07:45:51.006004Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     8
+# Query_time: 0.059372  Lock_time: 0.000117 Rows_sent: 1  Rows_examined: 15
+SET timestamp=1543563951;
+SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t;
+# Time: 2018-11-30T07:45:51.074173Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    10
+# Query_time: 0.047448  Lock_time: 0.000104 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543563951;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T07:45:51.251543Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    12
+# Query_time: 0.070191  Lock_time: 0.000097 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543563951;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T07:45:51.329598Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    14
+# Query_time: 0.054122  Lock_time: 0.000070 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543563951;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T07:46:03.291714Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    16
+# Query_time: 0.085291  Lock_time: 0.000107 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543563963;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T07:46:03.703472Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    16
+# Query_time: 0.397352  Lock_time: 0.000119 Rows_sent: 23  Rows_examined: 46
+use jy;
+SET timestamp=1543563963;
+SELECT *,
+                `TABLE_SCHEMA`       AS `Db`,
+                `TABLE_NAME`         AS `Name`,
+                `TABLE_TYPE`         AS `TABLE_TYPE`,
+                `ENGINE`             AS `Engine`,
+                `ENGINE`             AS `Type`,
+                `VERSION`            AS `Version`,
+                `ROW_FORMAT`         AS `Row_format`,
+                `TABLE_ROWS`         AS `Rows`,
+                `AVG_ROW_LENGTH`     AS `Avg_row_length`,
+                `DATA_LENGTH`        AS `Data_length`,
+                `MAX_DATA_LENGTH`    AS `Max_data_length`,
+                `INDEX_LENGTH`       AS `Index_length`,
+                `DATA_FREE`          AS `Data_free`,
+                `AUTO_INCREMENT`     AS `Auto_increment`,
+                `CREATE_TIME`        AS `Create_time`,
+                `UPDATE_TIME`        AS `Update_time`,
+                `CHECK_TIME`         AS `Check_time`,
+                `TABLE_COLLATION`    AS `Collation`,
+                `CHECKSUM`           AS `Checksum`,
+                `CREATE_OPTIONS`     AS `Create_options`,
+                `TABLE_COMMENT`      AS `Comment`
+            FROM `information_schema`.`TABLES` t
+            WHERE `TABLE_SCHEMA` COLLATE utf8_general_ci
+                IN ('jy')
+                 ORDER BY Name ASC LIMIT 250 OFFSET 0;
+# Time: 2018-11-30T07:46:03.775904Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    16
+# Query_time: 0.001391  Lock_time: 0.000112 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1543563963;
+SELECT DEFAULT_COLLATION_NAME FROM information_schema.SCHEMATA WHERE SCHEMA_NAME = 'jy' LIMIT 1;
+# Time: 2018-11-30T07:46:03.800727Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    16
+# Query_time: 0.000229  Lock_time: 0.000091 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543563963;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='EVENT';
+# Time: 2018-11-30T07:46:03.801352Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    16
+# Query_time: 0.000185  Lock_time: 0.000064 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543563963;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T07:46:03.806126Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    16
+# Query_time: 0.000213  Lock_time: 0.000082 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543563963;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='EVENT';
+# Time: 2018-11-30T07:46:03.806730Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    16
+# Query_time: 0.000177  Lock_time: 0.000059 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543563963;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T07:46:04.146641Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    18
+# Query_time: 0.097113  Lock_time: 0.000105 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543563964;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T07:46:04.279908Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    18
+# Query_time: 0.128511  Lock_time: 0.000207 Rows_sent: 5  Rows_examined: 40
+SET timestamp=1543563964;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`, (SELECT DB_first_level FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t ORDER BY DB_first_level ASC LIMIT 0, 100) t2 WHERE TRUE AND 1 = LOCATE(CONCAT(DB_first_level, '_'), CONCAT(SCHEMA_NAME, '_')) ORDER BY SCHEMA_NAME ASC;
+# Time: 2018-11-30T07:46:04.285488Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    18
+# Query_time: 0.004336  Lock_time: 0.000100 Rows_sent: 1  Rows_examined: 23
+SET timestamp=1543563964;
+SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='jy' AND `TABLE_TYPE`='BASE TABLE';
+# Time: 2018-11-30T07:46:04.293611Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    18
+# Query_time: 0.004274  Lock_time: 0.000106 Rows_sent: 1  Rows_examined: 23
+SET timestamp=1543563964;
+SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='jy' AND `TABLE_TYPE`!='BASE TABLE';
+# Time: 2018-11-30T07:46:04.308784Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    18
+# Query_time: 0.014391  Lock_time: 0.009114 Rows_sent: 1  Rows_examined: 48
+SET timestamp=1543563964;
+SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` COLLATE utf8_general_ci='jy' AND `ROUTINE_TYPE`='FUNCTION';
+# Time: 2018-11-30T07:46:04.310916Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    18
+# Query_time: 0.001552  Lock_time: 0.000210 Rows_sent: 1  Rows_examined: 48
+SET timestamp=1543563964;
+SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` COLLATE utf8_general_ci='jy'AND `ROUTINE_TYPE`='PROCEDURE';
+# Time: 2018-11-30T07:46:04.319044Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    18
+# Query_time: 0.007545  Lock_time: 0.006719 Rows_sent: 1  Rows_examined: 0
+SET timestamp=1543563964;
+SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`EVENTS` WHERE `EVENT_SCHEMA` COLLATE utf8_general_ci='jy';
+# Time: 2018-11-30T07:46:04.324218Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    18
+# Query_time: 0.004619  Lock_time: 0.000085 Rows_sent: 23  Rows_examined: 46
+SET timestamp=1543563964;
+SELECT `TABLE_NAME` AS `name` FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='jy' AND `TABLE_TYPE`='BASE TABLE' ORDER BY `TABLE_NAME` ASC LIMIT 0, 50;
+# Time: 2018-11-30T07:46:04.330210Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    18
+# Query_time: 0.003778  Lock_time: 0.000089 Rows_sent: 1  Rows_examined: 23
+SET timestamp=1543563964;
+SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='jy' AND `TABLE_TYPE`='BASE TABLE';
+# Time: 2018-11-30T07:46:04.334524Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    18
+# Query_time: 0.003765  Lock_time: 0.000079 Rows_sent: 1  Rows_examined: 23
+SET timestamp=1543563964;
+SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='jy' AND `TABLE_TYPE`='BASE TABLE';
+# Time: 2018-11-30T07:46:16.472112Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    20
+# Query_time: 0.100018  Lock_time: 0.000118 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543563976;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T07:46:16.531667Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    20
+# Query_time: 0.001606  Lock_time: 0.001368 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1543563976;
+SELECT * FROM `admin_app` LIMIT 0, 25;
+# Time: 2018-11-30T07:46:16.533699Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    20
+# Query_time: 0.000629  Lock_time: 0.000403 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1543563976;
+SELECT TABLE_NAME
+            FROM information_schema.VIEWS
+            WHERE TABLE_SCHEMA = 'jy'
+                AND TABLE_NAME = 'admin_app';
+# Time: 2018-11-30T07:46:16.586236Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    20
+# Query_time: 0.050806  Lock_time: 0.000268 Rows_sent: 1  Rows_examined: 2
+SET timestamp=1543563976;
+SELECT *,
+                `TABLE_SCHEMA`       AS `Db`,
+                `TABLE_NAME`         AS `Name`,
+                `TABLE_TYPE`         AS `TABLE_TYPE`,
+                `ENGINE`             AS `Engine`,
+                `ENGINE`             AS `Type`,
+                `VERSION`            AS `Version`,
+                `ROW_FORMAT`         AS `Row_format`,
+                `TABLE_ROWS`         AS `Rows`,
+                `AVG_ROW_LENGTH`     AS `Avg_row_length`,
+                `DATA_LENGTH`        AS `Data_length`,
+                `MAX_DATA_LENGTH`    AS `Max_data_length`,
+                `INDEX_LENGTH`       AS `Index_length`,
+                `DATA_FREE`          AS `Data_free`,
+                `AUTO_INCREMENT`     AS `Auto_increment`,
+                `CREATE_TIME`        AS `Create_time`,
+                `UPDATE_TIME`        AS `Update_time`,
+                `CHECK_TIME`         AS `Check_time`,
+                `TABLE_COLLATION`    AS `Collation`,
+                `CHECKSUM`           AS `Checksum`,
+                `CREATE_OPTIONS`     AS `Create_options`,
+                `TABLE_COMMENT`      AS `Comment`
+            FROM `information_schema`.`TABLES` t
+            WHERE `TABLE_SCHEMA` COLLATE utf8_general_ci
+                IN ('jy')
+                AND t.`TABLE_NAME` COLLATE utf8_general_ci = 'admin_app' ORDER BY Name ASC;
+# Time: 2018-11-30T07:46:16.643461Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    20
+# Query_time: 0.000220  Lock_time: 0.000080 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543563976;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T07:46:16.644690Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    20
+# Query_time: 0.000218  Lock_time: 0.000075 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543563976;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T07:46:16.881898Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    22
+# Query_time: 0.076389  Lock_time: 0.000110 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543563976;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T07:46:19.670001Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    24
+# Query_time: 0.092660  Lock_time: 0.000117 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543563979;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T07:46:19.686996Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    24
+# Query_time: 0.001797  Lock_time: 0.001627 Rows_sent: 6  Rows_examined: 6
+SET timestamp=1543563979;
+SELECT * FROM `company` LIMIT 0, 25;
+# Time: 2018-11-30T07:46:19.688480Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    24
+# Query_time: 0.000798  Lock_time: 0.000535 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1543563979;
+SELECT TABLE_NAME
+            FROM information_schema.VIEWS
+            WHERE TABLE_SCHEMA = 'jy'
+                AND TABLE_NAME = 'company';
+# Time: 2018-11-30T07:46:19.763096Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    24
+# Query_time: 0.073869  Lock_time: 0.000110 Rows_sent: 1  Rows_examined: 2
+SET timestamp=1543563979;
+SELECT *,
+                `TABLE_SCHEMA`       AS `Db`,
+                `TABLE_NAME`         AS `Name`,
+                `TABLE_TYPE`         AS `TABLE_TYPE`,
+                `ENGINE`             AS `Engine`,
+                `ENGINE`             AS `Type`,
+                `VERSION`            AS `Version`,
+                `ROW_FORMAT`         AS `Row_format`,
+                `TABLE_ROWS`         AS `Rows`,
+                `AVG_ROW_LENGTH`     AS `Avg_row_length`,
+                `DATA_LENGTH`        AS `Data_length`,
+                `MAX_DATA_LENGTH`    AS `Max_data_length`,
+                `INDEX_LENGTH`       AS `Index_length`,
+                `DATA_FREE`          AS `Data_free`,
+                `AUTO_INCREMENT`     AS `Auto_increment`,
+                `CREATE_TIME`        AS `Create_time`,
+                `UPDATE_TIME`        AS `Update_time`,
+                `CHECK_TIME`         AS `Check_time`,
+                `TABLE_COLLATION`    AS `Collation`,
+                `CHECKSUM`           AS `Checksum`,
+                `CREATE_OPTIONS`     AS `Create_options`,
+                `TABLE_COMMENT`      AS `Comment`
+            FROM `information_schema`.`TABLES` t
+            WHERE `TABLE_SCHEMA` COLLATE utf8_general_ci
+                IN ('jy')
+                AND t.`TABLE_NAME` COLLATE utf8_general_ci = 'company' ORDER BY Name ASC;
+# Time: 2018-11-30T07:46:19.764983Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    24
+# Query_time: 0.000764  Lock_time: 0.000455 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1543563979;
+SELECT TABLE_NAME
+            FROM information_schema.VIEWS
+            WHERE TABLE_SCHEMA = 'jy'
+                AND TABLE_NAME = 'company'
+                AND IS_UPDATABLE = 'YES';
+# Time: 2018-11-30T07:46:19.801772Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    24
+# Query_time: 0.000169  Lock_time: 0.000066 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543563979;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T07:46:19.802752Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    24
+# Query_time: 0.000170  Lock_time: 0.000065 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543563979;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T07:46:20.008295Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    26
+# Query_time: 0.048301  Lock_time: 0.000090 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543563980;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T07:46:22.870197Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    28
+# Query_time: 0.074649  Lock_time: 0.000122 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543563982;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T07:46:22.886868Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    28
+# Query_time: 0.001405  Lock_time: 0.001266 Rows_sent: 13  Rows_examined: 13
+SET timestamp=1543563982;
+SELECT * FROM `extract_config` LIMIT 0, 25;
+# Time: 2018-11-30T07:46:22.888029Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    28
+# Query_time: 0.000562  Lock_time: 0.000413 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1543563982;
+SELECT TABLE_NAME
+            FROM information_schema.VIEWS
+            WHERE TABLE_SCHEMA = 'jy'
+                AND TABLE_NAME = 'extract_config';
+# Time: 2018-11-30T07:46:22.942848Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    28
+# Query_time: 0.054141  Lock_time: 0.000112 Rows_sent: 1  Rows_examined: 2
+SET timestamp=1543563982;
+SELECT *,
+                `TABLE_SCHEMA`       AS `Db`,
+                `TABLE_NAME`         AS `Name`,
+                `TABLE_TYPE`         AS `TABLE_TYPE`,
+                `ENGINE`             AS `Engine`,
+                `ENGINE`             AS `Type`,
+                `VERSION`            AS `Version`,
+                `ROW_FORMAT`         AS `Row_format`,
+                `TABLE_ROWS`         AS `Rows`,
+                `AVG_ROW_LENGTH`     AS `Avg_row_length`,
+                `DATA_LENGTH`        AS `Data_length`,
+                `MAX_DATA_LENGTH`    AS `Max_data_length`,
+                `INDEX_LENGTH`       AS `Index_length`,
+                `DATA_FREE`          AS `Data_free`,
+                `AUTO_INCREMENT`     AS `Auto_increment`,
+                `CREATE_TIME`        AS `Create_time`,
+                `UPDATE_TIME`        AS `Update_time`,
+                `CHECK_TIME`         AS `Check_time`,
+                `TABLE_COLLATION`    AS `Collation`,
+                `CHECKSUM`           AS `Checksum`,
+                `CREATE_OPTIONS`     AS `Create_options`,
+                `TABLE_COMMENT`      AS `Comment`
+            FROM `information_schema`.`TABLES` t
+            WHERE `TABLE_SCHEMA` COLLATE utf8_general_ci
+                IN ('jy')
+                AND t.`TABLE_NAME` COLLATE utf8_general_ci = 'extract_config' ORDER BY Name ASC;
+# Time: 2018-11-30T07:46:22.945724Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    28
+# Query_time: 0.000918  Lock_time: 0.000608 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1543563982;
+SELECT TABLE_NAME
+            FROM information_schema.VIEWS
+            WHERE TABLE_SCHEMA = 'jy'
+                AND TABLE_NAME = 'extract_config'
+                AND IS_UPDATABLE = 'YES';
+# Time: 2018-11-30T07:46:22.964816Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    28
+# Query_time: 0.000181  Lock_time: 0.000075 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543563982;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T07:46:22.966064Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    28
+# Query_time: 0.000179  Lock_time: 0.000069 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543563982;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T07:46:23.168624Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    30
+# Query_time: 0.057283  Lock_time: 0.000161 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543563983;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T07:46:25.621912Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    32
+# Query_time: 0.056557  Lock_time: 0.000129 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543563985;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T07:46:25.636510Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    32
+# Query_time: 0.000179  Lock_time: 0.000069 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1543563985;
+SELECT * FROM `km` LIMIT 0, 25;
+# Time: 2018-11-30T07:46:25.637582Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    32
+# Query_time: 0.000561  Lock_time: 0.000377 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1543563985;
+SELECT TABLE_NAME
+            FROM information_schema.VIEWS
+            WHERE TABLE_SCHEMA = 'jy'
+                AND TABLE_NAME = 'km';
+# Time: 2018-11-30T07:46:25.680179Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    32
+# Query_time: 0.041881  Lock_time: 0.000113 Rows_sent: 1  Rows_examined: 2
+SET timestamp=1543563985;
+SELECT *,
+                `TABLE_SCHEMA`       AS `Db`,
+                `TABLE_NAME`         AS `Name`,
+                `TABLE_TYPE`         AS `TABLE_TYPE`,
+                `ENGINE`             AS `Engine`,
+                `ENGINE`             AS `Type`,
+                `VERSION`            AS `Version`,
+                `ROW_FORMAT`         AS `Row_format`,
+                `TABLE_ROWS`         AS `Rows`,
+                `AVG_ROW_LENGTH`     AS `Avg_row_length`,
+                `DATA_LENGTH`        AS `Data_length`,
+                `MAX_DATA_LENGTH`    AS `Max_data_length`,
+                `INDEX_LENGTH`       AS `Index_length`,
+                `DATA_FREE`          AS `Data_free`,
+                `AUTO_INCREMENT`     AS `Auto_increment`,
+                `CREATE_TIME`        AS `Create_time`,
+                `UPDATE_TIME`        AS `Update_time`,
+                `CHECK_TIME`         AS `Check_time`,
+                `TABLE_COLLATION`    AS `Collation`,
+                `CHECKSUM`           AS `Checksum`,
+                `CREATE_OPTIONS`     AS `Create_options`,
+                `TABLE_COMMENT`      AS `Comment`
+            FROM `information_schema`.`TABLES` t
+            WHERE `TABLE_SCHEMA` COLLATE utf8_general_ci
+                IN ('jy')
+                AND t.`TABLE_NAME` COLLATE utf8_general_ci = 'km' ORDER BY Name ASC;
+# Time: 2018-11-30T07:46:25.682366Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    32
+# Query_time: 0.000583  Lock_time: 0.000391 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1543563985;
+SELECT TABLE_NAME
+            FROM information_schema.VIEWS
+            WHERE TABLE_SCHEMA = 'jy'
+                AND TABLE_NAME = 'km'
+                AND IS_UPDATABLE = 'YES';
+# Time: 2018-11-30T07:46:25.691486Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    32
+# Query_time: 0.000205  Lock_time: 0.000075 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543563985;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T07:46:25.692418Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    32
+# Query_time: 0.000198  Lock_time: 0.000067 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543563985;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T07:46:25.897192Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    34
+# Query_time: 0.049269  Lock_time: 0.000097 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543563985;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T07:46:26.771449Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    36
+# Query_time: 0.077631  Lock_time: 0.000106 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543563986;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T07:46:26.790115Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    36
+# Query_time: 0.006314  Lock_time: 0.001280 Rows_sent: 7  Rows_examined: 7
+SET timestamp=1543563986;
+SELECT * FROM `news` LIMIT 0, 25;
+# Time: 2018-11-30T07:46:26.791878Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    36
+# Query_time: 0.000667  Lock_time: 0.000482 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1543563986;
+SELECT TABLE_NAME
+            FROM information_schema.VIEWS
+            WHERE TABLE_SCHEMA = 'jy'
+                AND TABLE_NAME = 'news';
+# Time: 2018-11-30T07:46:26.849037Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    36
+# Query_time: 0.056204  Lock_time: 0.000121 Rows_sent: 1  Rows_examined: 2
+SET timestamp=1543563986;
+SELECT *,
+                `TABLE_SCHEMA`       AS `Db`,
+                `TABLE_NAME`         AS `Name`,
+                `TABLE_TYPE`         AS `TABLE_TYPE`,
+                `ENGINE`             AS `Engine`,
+                `ENGINE`             AS `Type`,
+                `VERSION`            AS `Version`,
+                `ROW_FORMAT`         AS `Row_format`,
+                `TABLE_ROWS`         AS `Rows`,
+                `AVG_ROW_LENGTH`     AS `Avg_row_length`,
+                `DATA_LENGTH`        AS `Data_length`,
+                `MAX_DATA_LENGTH`    AS `Max_data_length`,
+                `INDEX_LENGTH`       AS `Index_length`,
+                `DATA_FREE`          AS `Data_free`,
+                `AUTO_INCREMENT`     AS `Auto_increment`,
+                `CREATE_TIME`        AS `Create_time`,
+                `UPDATE_TIME`        AS `Update_time`,
+                `CHECK_TIME`         AS `Check_time`,
+                `TABLE_COLLATION`    AS `Collation`,
+                `CHECKSUM`           AS `Checksum`,
+                `CREATE_OPTIONS`     AS `Create_options`,
+                `TABLE_COMMENT`      AS `Comment`
+            FROM `information_schema`.`TABLES` t
+            WHERE `TABLE_SCHEMA` COLLATE utf8_general_ci
+                IN ('jy')
+                AND t.`TABLE_NAME` COLLATE utf8_general_ci = 'news' ORDER BY Name ASC;
+# Time: 2018-11-30T07:46:26.850989Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    36
+# Query_time: 0.000619  Lock_time: 0.000461 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1543563986;
+SELECT TABLE_NAME
+            FROM information_schema.VIEWS
+            WHERE TABLE_SCHEMA = 'jy'
+                AND TABLE_NAME = 'news'
+                AND IS_UPDATABLE = 'YES';
+# Time: 2018-11-30T07:46:26.871335Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    36
+# Query_time: 0.001340  Lock_time: 0.000176 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543563986;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T07:46:26.872739Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    36
+# Query_time: 0.000273  Lock_time: 0.000105 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543563986;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T07:46:27.054515Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    38
+# Query_time: 0.042760  Lock_time: 0.000101 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543563987;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.24-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 2018-11-30T08:33:42.522025Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     2
+# Query_time: 0.076212  Lock_time: 0.000199 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543566822;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T08:33:42.619461Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     4
+# Query_time: 0.042801  Lock_time: 0.000266 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543566822;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T08:33:42.633883Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     4
+# Query_time: 0.000962  Lock_time: 0.000209 Rows_sent: 1  Rows_examined: 88
+SET timestamp=1543566822;
+SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''root''@''%''' LIKE `GRANTEE` LIMIT 1;
+# Time: 2018-11-30T08:33:42.635008Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     4
+# Query_time: 0.000499  Lock_time: 0.000103 Rows_sent: 1  Rows_examined: 55
+SET timestamp=1543566822;
+SELECT 1 FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE `PRIVILEGE_TYPE` = 'CREATE USER' AND '''root''@''%''' LIKE `GRANTEE` LIMIT 1;
+# Time: 2018-11-30T08:33:42.661887Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     4
+# Query_time: 0.000197  Lock_time: 0.000091 Rows_sent: 41  Rows_examined: 41
+use mysql;
+SET timestamp=1543566822;
+SELECT `CHARACTER_SET_NAME` AS `Charset`, `DESCRIPTION` AS `Description` FROM `information_schema`.`CHARACTER_SETS`;
+# Time: 2018-11-30T08:33:42.663381Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     4
+# Query_time: 0.000729  Lock_time: 0.000128 Rows_sent: 222  Rows_examined: 222
+SET timestamp=1543566822;
+SELECT `CHARACTER_SET_NAME` AS `Charset`, `COLLATION_NAME` AS `Collation`, `IS_DEFAULT` AS `Default` FROM `information_schema`.`COLLATIONS`;
+# Time: 2018-11-30T08:33:42.762196Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     4
+# Query_time: 0.081175  Lock_time: 0.000392 Rows_sent: 5  Rows_examined: 40
+SET timestamp=1543566822;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`, (SELECT DB_first_level FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t ORDER BY DB_first_level ASC LIMIT 0, 100) t2 WHERE TRUE AND 1 = LOCATE(CONCAT(DB_first_level, '_'), CONCAT(SCHEMA_NAME, '_')) ORDER BY SCHEMA_NAME ASC;
+# Time: 2018-11-30T08:33:42.805913Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     4
+# Query_time: 0.040722  Lock_time: 0.000118 Rows_sent: 1  Rows_examined: 15
+SET timestamp=1543566822;
+SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t;
+# Time: 2018-11-30T08:33:42.851707Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     4
+# Query_time: 0.045263  Lock_time: 0.000095 Rows_sent: 1  Rows_examined: 15
+SET timestamp=1543566822;
+SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t;
+# Time: 2018-11-30T08:33:43.543328Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     6
+# Query_time: 0.044475  Lock_time: 0.000345 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543566823;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T08:33:43.712802Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     8
+# Query_time: 0.074117  Lock_time: 0.000077 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543566823;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T08:33:43.840415Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     8
+# Query_time: 0.123119  Lock_time: 0.000139 Rows_sent: 5  Rows_examined: 40
+SET timestamp=1543566823;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`, (SELECT DB_first_level FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t ORDER BY DB_first_level ASC LIMIT 0, 100) t2 WHERE TRUE AND 1 = LOCATE(CONCAT(DB_first_level, '_'), CONCAT(SCHEMA_NAME, '_')) ORDER BY SCHEMA_NAME ASC;
+# Time: 2018-11-30T08:33:43.898976Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     8
+# Query_time: 0.058003  Lock_time: 0.000104 Rows_sent: 1  Rows_examined: 15
+SET timestamp=1543566823;
+SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t;
+# Time: 2018-11-30T08:33:43.973524Z
+# User@Host: root[root] @  [172.23.0.4]  Id:     8
+# Query_time: 0.073896  Lock_time: 0.000109 Rows_sent: 1  Rows_examined: 15
+SET timestamp=1543566823;
+SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t;
+# Time: 2018-11-30T08:33:44.042618Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    10
+# Query_time: 0.058845  Lock_time: 0.000087 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543566824;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T08:33:44.259972Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    12
+# Query_time: 0.114805  Lock_time: 0.000201 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543566824;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T08:33:44.402727Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    14
+# Query_time: 0.068488  Lock_time: 0.000099 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543566824;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T08:33:46.008587Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    16
+# Query_time: 0.045857  Lock_time: 0.000095 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543566826;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T08:33:46.257849Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    16
+# Query_time: 0.237027  Lock_time: 0.000120 Rows_sent: 23  Rows_examined: 46
+use jy;
+SET timestamp=1543566826;
+SELECT *,
+                `TABLE_SCHEMA`       AS `Db`,
+                `TABLE_NAME`         AS `Name`,
+                `TABLE_TYPE`         AS `TABLE_TYPE`,
+                `ENGINE`             AS `Engine`,
+                `ENGINE`             AS `Type`,
+                `VERSION`            AS `Version`,
+                `ROW_FORMAT`         AS `Row_format`,
+                `TABLE_ROWS`         AS `Rows`,
+                `AVG_ROW_LENGTH`     AS `Avg_row_length`,
+                `DATA_LENGTH`        AS `Data_length`,
+                `MAX_DATA_LENGTH`    AS `Max_data_length`,
+                `INDEX_LENGTH`       AS `Index_length`,
+                `DATA_FREE`          AS `Data_free`,
+                `AUTO_INCREMENT`     AS `Auto_increment`,
+                `CREATE_TIME`        AS `Create_time`,
+                `UPDATE_TIME`        AS `Update_time`,
+                `CHECK_TIME`         AS `Check_time`,
+                `TABLE_COLLATION`    AS `Collation`,
+                `CHECKSUM`           AS `Checksum`,
+                `CREATE_OPTIONS`     AS `Create_options`,
+                `TABLE_COMMENT`      AS `Comment`
+            FROM `information_schema`.`TABLES` t
+            WHERE `TABLE_SCHEMA` COLLATE utf8_bin
+                IN ('jy')
+                 ORDER BY Name ASC LIMIT 250 OFFSET 0;
+# Time: 2018-11-30T08:33:46.320578Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    16
+# Query_time: 0.001326  Lock_time: 0.000065 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1543566826;
+SELECT DEFAULT_COLLATION_NAME FROM information_schema.SCHEMATA WHERE SCHEMA_NAME = 'jy' LIMIT 1;
+# Time: 2018-11-30T08:33:46.340977Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    16
+# Query_time: 0.000200  Lock_time: 0.000091 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566826;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='EVENT';
+# Time: 2018-11-30T08:33:46.341495Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    16
+# Query_time: 0.000146  Lock_time: 0.000053 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566826;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T08:33:46.345765Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    16
+# Query_time: 0.000204  Lock_time: 0.000092 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566826;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='EVENT';
+# Time: 2018-11-30T08:33:46.346318Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    16
+# Query_time: 0.000160  Lock_time: 0.000064 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566826;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T08:33:46.559614Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    18
+# Query_time: 0.051891  Lock_time: 0.000091 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543566826;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T08:33:46.654340Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    18
+# Query_time: 0.093345  Lock_time: 0.000191 Rows_sent: 5  Rows_examined: 40
+SET timestamp=1543566826;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`, (SELECT DB_first_level FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t ORDER BY DB_first_level ASC LIMIT 0, 100) t2 WHERE TRUE AND 1 = LOCATE(CONCAT(DB_first_level, '_'), CONCAT(SCHEMA_NAME, '_')) ORDER BY SCHEMA_NAME ASC;
+# Time: 2018-11-30T08:33:46.659638Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    18
+# Query_time: 0.004852  Lock_time: 0.000108 Rows_sent: 1  Rows_examined: 23
+SET timestamp=1543566826;
+SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='jy' AND `TABLE_TYPE`='BASE TABLE';
+# Time: 2018-11-30T08:33:46.663907Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    18
+# Query_time: 0.003869  Lock_time: 0.000088 Rows_sent: 1  Rows_examined: 23
+SET timestamp=1543566826;
+SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='jy' AND `TABLE_TYPE`!='BASE TABLE';
+# Time: 2018-11-30T08:33:46.698613Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    18
+# Query_time: 0.034100  Lock_time: 0.011639 Rows_sent: 1  Rows_examined: 48
+SET timestamp=1543566826;
+SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` COLLATE utf8_bin='jy' AND `ROUTINE_TYPE`='FUNCTION';
+# Time: 2018-11-30T08:33:46.704749Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    18
+# Query_time: 0.004923  Lock_time: 0.001018 Rows_sent: 1  Rows_examined: 48
+SET timestamp=1543566826;
+SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` COLLATE utf8_bin='jy'AND `ROUTINE_TYPE`='PROCEDURE';
+# Time: 2018-11-30T08:33:46.714662Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    18
+# Query_time: 0.009097  Lock_time: 0.007971 Rows_sent: 1  Rows_examined: 0
+SET timestamp=1543566826;
+SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`EVENTS` WHERE `EVENT_SCHEMA` COLLATE utf8_bin='jy';
+# Time: 2018-11-30T08:33:46.724721Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    18
+# Query_time: 0.009368  Lock_time: 0.000198 Rows_sent: 23  Rows_examined: 46
+SET timestamp=1543566826;
+SELECT `TABLE_NAME` AS `name` FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='jy' AND `TABLE_TYPE`='BASE TABLE' ORDER BY `TABLE_NAME` ASC LIMIT 0, 50;
+# Time: 2018-11-30T08:33:46.738128Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    18
+# Query_time: 0.012754  Lock_time: 0.000124 Rows_sent: 1  Rows_examined: 23
+SET timestamp=1543566826;
+SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='jy' AND `TABLE_TYPE`='BASE TABLE';
+# Time: 2018-11-30T08:33:46.752575Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    18
+# Query_time: 0.013608  Lock_time: 0.000133 Rows_sent: 1  Rows_examined: 23
+SET timestamp=1543566826;
+SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='jy' AND `TABLE_TYPE`='BASE TABLE';
+# Time: 2018-11-30T08:33:52.049215Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    20
+# Query_time: 0.083723  Lock_time: 0.000473 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543566832;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T08:33:52.136416Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    20
+# Query_time: 0.078848  Lock_time: 0.000171 Rows_sent: 23  Rows_examined: 46
+SET timestamp=1543566832;
+SELECT *,
+                `TABLE_SCHEMA`       AS `Db`,
+                `TABLE_NAME`         AS `Name`,
+                `TABLE_TYPE`         AS `TABLE_TYPE`,
+                `ENGINE`             AS `Engine`,
+                `ENGINE`             AS `Type`,
+                `VERSION`            AS `Version`,
+                `ROW_FORMAT`         AS `Row_format`,
+                `TABLE_ROWS`         AS `Rows`,
+                `AVG_ROW_LENGTH`     AS `Avg_row_length`,
+                `DATA_LENGTH`        AS `Data_length`,
+                `MAX_DATA_LENGTH`    AS `Max_data_length`,
+                `INDEX_LENGTH`       AS `Index_length`,
+                `DATA_FREE`          AS `Data_free`,
+                `AUTO_INCREMENT`     AS `Auto_increment`,
+                `CREATE_TIME`        AS `Create_time`,
+                `UPDATE_TIME`        AS `Update_time`,
+                `CHECK_TIME`         AS `Check_time`,
+                `TABLE_COLLATION`    AS `Collation`,
+                `CHECKSUM`           AS `Checksum`,
+                `CREATE_OPTIONS`     AS `Create_options`,
+                `TABLE_COMMENT`      AS `Comment`
+            FROM `information_schema`.`TABLES` t
+            WHERE `TABLE_SCHEMA` COLLATE utf8_bin
+                IN ('jy')
+                 ORDER BY Name ASC LIMIT 250 OFFSET 0;
+# Time: 2018-11-30T08:33:52.165411Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    20
+# Query_time: 0.000970  Lock_time: 0.000063 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1543566832;
+SELECT DEFAULT_COLLATION_NAME FROM information_schema.SCHEMATA WHERE SCHEMA_NAME = 'jy' LIMIT 1;
+# Time: 2018-11-30T08:33:52.173567Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    20
+# Query_time: 0.000218  Lock_time: 0.000075 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566832;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='EVENT';
+# Time: 2018-11-30T08:33:52.174148Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    20
+# Query_time: 0.000219  Lock_time: 0.000057 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566832;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T08:33:52.178326Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    20
+# Query_time: 0.000198  Lock_time: 0.000070 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566832;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='EVENT';
+# Time: 2018-11-30T08:33:52.179079Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    20
+# Query_time: 0.000300  Lock_time: 0.000075 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566832;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T08:33:53.298461Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    22
+# Query_time: 0.055636  Lock_time: 0.000153 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543566833;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T08:33:53.387543Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    22
+# Query_time: 0.080765  Lock_time: 0.000138 Rows_sent: 23  Rows_examined: 46
+SET timestamp=1543566833;
+SELECT *,
+                `TABLE_SCHEMA`       AS `Db`,
+                `TABLE_NAME`         AS `Name`,
+                `TABLE_TYPE`         AS `TABLE_TYPE`,
+                `ENGINE`             AS `Engine`,
+                `ENGINE`             AS `Type`,
+                `VERSION`            AS `Version`,
+                `ROW_FORMAT`         AS `Row_format`,
+                `TABLE_ROWS`         AS `Rows`,
+                `AVG_ROW_LENGTH`     AS `Avg_row_length`,
+                `DATA_LENGTH`        AS `Data_length`,
+                `MAX_DATA_LENGTH`    AS `Max_data_length`,
+                `INDEX_LENGTH`       AS `Index_length`,
+                `DATA_FREE`          AS `Data_free`,
+                `AUTO_INCREMENT`     AS `Auto_increment`,
+                `CREATE_TIME`        AS `Create_time`,
+                `UPDATE_TIME`        AS `Update_time`,
+                `CHECK_TIME`         AS `Check_time`,
+                `TABLE_COLLATION`    AS `Collation`,
+                `CHECKSUM`           AS `Checksum`,
+                `CREATE_OPTIONS`     AS `Create_options`,
+                `TABLE_COMMENT`      AS `Comment`
+            FROM `information_schema`.`TABLES` t
+            WHERE `TABLE_SCHEMA` COLLATE utf8_bin
+                IN ('jy')
+                 ORDER BY Name ASC LIMIT 250 OFFSET 0;
+# Time: 2018-11-30T08:33:53.420008Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    22
+# Query_time: 0.001258  Lock_time: 0.000068 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1543566833;
+SELECT DEFAULT_COLLATION_NAME FROM information_schema.SCHEMATA WHERE SCHEMA_NAME = 'jy' LIMIT 1;
+# Time: 2018-11-30T08:33:53.426717Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    22
+# Query_time: 0.000414  Lock_time: 0.000090 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566833;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='EVENT';
+# Time: 2018-11-30T08:33:53.427741Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    22
+# Query_time: 0.000343  Lock_time: 0.000095 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566833;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T08:33:53.432787Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    22
+# Query_time: 0.000242  Lock_time: 0.000095 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566833;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='EVENT';
+# Time: 2018-11-30T08:33:53.433418Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    22
+# Query_time: 0.000200  Lock_time: 0.000070 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566833;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T08:33:54.449829Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    24
+# Query_time: 0.066369  Lock_time: 0.000165 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543566834;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T08:33:54.541741Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    24
+# Query_time: 0.083830  Lock_time: 0.000120 Rows_sent: 23  Rows_examined: 46
+SET timestamp=1543566834;
+SELECT *,
+                `TABLE_SCHEMA`       AS `Db`,
+                `TABLE_NAME`         AS `Name`,
+                `TABLE_TYPE`         AS `TABLE_TYPE`,
+                `ENGINE`             AS `Engine`,
+                `ENGINE`             AS `Type`,
+                `VERSION`            AS `Version`,
+                `ROW_FORMAT`         AS `Row_format`,
+                `TABLE_ROWS`         AS `Rows`,
+                `AVG_ROW_LENGTH`     AS `Avg_row_length`,
+                `DATA_LENGTH`        AS `Data_length`,
+                `MAX_DATA_LENGTH`    AS `Max_data_length`,
+                `INDEX_LENGTH`       AS `Index_length`,
+                `DATA_FREE`          AS `Data_free`,
+                `AUTO_INCREMENT`     AS `Auto_increment`,
+                `CREATE_TIME`        AS `Create_time`,
+                `UPDATE_TIME`        AS `Update_time`,
+                `CHECK_TIME`         AS `Check_time`,
+                `TABLE_COLLATION`    AS `Collation`,
+                `CHECKSUM`           AS `Checksum`,
+                `CREATE_OPTIONS`     AS `Create_options`,
+                `TABLE_COMMENT`      AS `Comment`
+            FROM `information_schema`.`TABLES` t
+            WHERE `TABLE_SCHEMA` COLLATE utf8_bin
+                IN ('jy')
+                 ORDER BY Name ASC LIMIT 250 OFFSET 0;
+# Time: 2018-11-30T08:33:54.574091Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    24
+# Query_time: 0.001418  Lock_time: 0.000068 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1543566834;
+SELECT DEFAULT_COLLATION_NAME FROM information_schema.SCHEMATA WHERE SCHEMA_NAME = 'jy' LIMIT 1;
+# Time: 2018-11-30T08:33:54.580981Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    24
+# Query_time: 0.000251  Lock_time: 0.000095 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566834;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='EVENT';
+# Time: 2018-11-30T08:33:54.581628Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    24
+# Query_time: 0.000196  Lock_time: 0.000062 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566834;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T08:33:54.586910Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    24
+# Query_time: 0.000229  Lock_time: 0.000093 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566834;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='EVENT';
+# Time: 2018-11-30T08:33:54.587480Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    24
+# Query_time: 0.000182  Lock_time: 0.000063 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566834;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T08:33:55.991894Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    26
+# Query_time: 0.089300  Lock_time: 0.000112 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543566835;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T08:33:56.110947Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    26
+# Query_time: 0.109698  Lock_time: 0.000115 Rows_sent: 23  Rows_examined: 46
+SET timestamp=1543566836;
+SELECT *,
+                `TABLE_SCHEMA`       AS `Db`,
+                `TABLE_NAME`         AS `Name`,
+                `TABLE_TYPE`         AS `TABLE_TYPE`,
+                `ENGINE`             AS `Engine`,
+                `ENGINE`             AS `Type`,
+                `VERSION`            AS `Version`,
+                `ROW_FORMAT`         AS `Row_format`,
+                `TABLE_ROWS`         AS `Rows`,
+                `AVG_ROW_LENGTH`     AS `Avg_row_length`,
+                `DATA_LENGTH`        AS `Data_length`,
+                `MAX_DATA_LENGTH`    AS `Max_data_length`,
+                `INDEX_LENGTH`       AS `Index_length`,
+                `DATA_FREE`          AS `Data_free`,
+                `AUTO_INCREMENT`     AS `Auto_increment`,
+                `CREATE_TIME`        AS `Create_time`,
+                `UPDATE_TIME`        AS `Update_time`,
+                `CHECK_TIME`         AS `Check_time`,
+                `TABLE_COLLATION`    AS `Collation`,
+                `CHECKSUM`           AS `Checksum`,
+                `CREATE_OPTIONS`     AS `Create_options`,
+                `TABLE_COMMENT`      AS `Comment`
+            FROM `information_schema`.`TABLES` t
+            WHERE `TABLE_SCHEMA` COLLATE utf8_bin
+                IN ('jy')
+                 ORDER BY Name ASC LIMIT 250 OFFSET 0;
+# Time: 2018-11-30T08:33:56.137698Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    26
+# Query_time: 0.001233  Lock_time: 0.000070 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1543566836;
+SELECT DEFAULT_COLLATION_NAME FROM information_schema.SCHEMATA WHERE SCHEMA_NAME = 'jy' LIMIT 1;
+# Time: 2018-11-30T08:33:56.145060Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    26
+# Query_time: 0.000247  Lock_time: 0.000092 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566836;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='EVENT';
+# Time: 2018-11-30T08:33:56.146003Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    26
+# Query_time: 0.000200  Lock_time: 0.000069 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566836;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T08:33:56.150405Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    26
+# Query_time: 0.000213  Lock_time: 0.000081 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566836;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='EVENT';
+# Time: 2018-11-30T08:33:56.151292Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    26
+# Query_time: 0.000209  Lock_time: 0.000074 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566836;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T08:34:05.712640Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    28
+# Query_time: 0.070388  Lock_time: 0.000080 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543566845;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T08:34:05.942251Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    28
+# Query_time: 0.208809  Lock_time: 0.000120 Rows_sent: 23  Rows_examined: 46
+SET timestamp=1543566845;
+SELECT *,
+                `TABLE_SCHEMA`       AS `Db`,
+                `TABLE_NAME`         AS `Name`,
+                `TABLE_TYPE`         AS `TABLE_TYPE`,
+                `ENGINE`             AS `Engine`,
+                `ENGINE`             AS `Type`,
+                `VERSION`            AS `Version`,
+                `ROW_FORMAT`         AS `Row_format`,
+                `TABLE_ROWS`         AS `Rows`,
+                `AVG_ROW_LENGTH`     AS `Avg_row_length`,
+                `DATA_LENGTH`        AS `Data_length`,
+                `MAX_DATA_LENGTH`    AS `Max_data_length`,
+                `INDEX_LENGTH`       AS `Index_length`,
+                `DATA_FREE`          AS `Data_free`,
+                `AUTO_INCREMENT`     AS `Auto_increment`,
+                `CREATE_TIME`        AS `Create_time`,
+                `UPDATE_TIME`        AS `Update_time`,
+                `CHECK_TIME`         AS `Check_time`,
+                `TABLE_COLLATION`    AS `Collation`,
+                `CHECKSUM`           AS `Checksum`,
+                `CREATE_OPTIONS`     AS `Create_options`,
+                `TABLE_COMMENT`      AS `Comment`
+            FROM `information_schema`.`TABLES` t
+            WHERE `TABLE_SCHEMA` COLLATE utf8_bin
+                IN ('jy')
+                 ORDER BY Name ASC;
+# Time: 2018-11-30T08:34:06.052107Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    28
+# Query_time: 0.102764  Lock_time: 0.000127 Rows_sent: 23  Rows_examined: 46
+SET timestamp=1543566846;
+SELECT *,
+                `TABLE_SCHEMA`       AS `Db`,
+                `TABLE_NAME`         AS `Name`,
+                `TABLE_TYPE`         AS `TABLE_TYPE`,
+                `ENGINE`             AS `Engine`,
+                `ENGINE`             AS `Type`,
+                `VERSION`            AS `Version`,
+                `ROW_FORMAT`         AS `Row_format`,
+                `TABLE_ROWS`         AS `Rows`,
+                `AVG_ROW_LENGTH`     AS `Avg_row_length`,
+                `DATA_LENGTH`        AS `Data_length`,
+                `MAX_DATA_LENGTH`    AS `Max_data_length`,
+                `INDEX_LENGTH`       AS `Index_length`,
+                `DATA_FREE`          AS `Data_free`,
+                `AUTO_INCREMENT`     AS `Auto_increment`,
+                `CREATE_TIME`        AS `Create_time`,
+                `UPDATE_TIME`        AS `Update_time`,
+                `CHECK_TIME`         AS `Check_time`,
+                `TABLE_COLLATION`    AS `Collation`,
+                `CHECKSUM`           AS `Checksum`,
+                `CREATE_OPTIONS`     AS `Create_options`,
+                `TABLE_COMMENT`      AS `Comment`
+            FROM `information_schema`.`TABLES` t
+            WHERE `TABLE_SCHEMA` COLLATE utf8_bin
+                IN ('jy')
+                 ORDER BY Name ASC LIMIT 250 OFFSET 0;
+# Time: 2018-11-30T08:34:06.082877Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    28
+# Query_time: 0.000233  Lock_time: 0.000106 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566846;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='EVENT';
+# Time: 2018-11-30T08:34:06.084242Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    28
+# Query_time: 0.000442  Lock_time: 0.000099 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566846;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T08:34:06.098153Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    28
+# Query_time: 0.000644  Lock_time: 0.000120 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566846;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='EVENT';
+# Time: 2018-11-30T08:34:06.099384Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    28
+# Query_time: 0.000271  Lock_time: 0.000100 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566846;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T08:34:08.795270Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    30
+# Query_time: 0.082458  Lock_time: 0.000097 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543566848;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T08:34:08.935466Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    30
+# Query_time: 0.131755  Lock_time: 0.000166 Rows_sent: 23  Rows_examined: 46
+SET timestamp=1543566848;
+SELECT *,
+                `TABLE_SCHEMA`       AS `Db`,
+                `TABLE_NAME`         AS `Name`,
+                `TABLE_TYPE`         AS `TABLE_TYPE`,
+                `ENGINE`             AS `Engine`,
+                `ENGINE`             AS `Type`,
+                `VERSION`            AS `Version`,
+                `ROW_FORMAT`         AS `Row_format`,
+                `TABLE_ROWS`         AS `Rows`,
+                `AVG_ROW_LENGTH`     AS `Avg_row_length`,
+                `DATA_LENGTH`        AS `Data_length`,
+                `MAX_DATA_LENGTH`    AS `Max_data_length`,
+                `INDEX_LENGTH`       AS `Index_length`,
+                `DATA_FREE`          AS `Data_free`,
+                `AUTO_INCREMENT`     AS `Auto_increment`,
+                `CREATE_TIME`        AS `Create_time`,
+                `UPDATE_TIME`        AS `Update_time`,
+                `CHECK_TIME`         AS `Check_time`,
+                `TABLE_COLLATION`    AS `Collation`,
+                `CHECKSUM`           AS `Checksum`,
+                `CREATE_OPTIONS`     AS `Create_options`,
+                `TABLE_COMMENT`      AS `Comment`
+            FROM `information_schema`.`TABLES` t
+            WHERE `TABLE_SCHEMA` COLLATE utf8_bin
+                IN ('jy')
+                 ORDER BY Name ASC;
+# Time: 2018-11-30T08:34:09.381435Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    30
+# Query_time: 0.065692  Lock_time: 0.000132 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1543566849;
+SELECT *,
+                `TABLE_SCHEMA`       AS `Db`,
+                `TABLE_NAME`         AS `Name`,
+                `TABLE_TYPE`         AS `TABLE_TYPE`,
+                `ENGINE`             AS `Engine`,
+                `ENGINE`             AS `Type`,
+                `VERSION`            AS `Version`,
+                `ROW_FORMAT`         AS `Row_format`,
+                `TABLE_ROWS`         AS `Rows`,
+                `AVG_ROW_LENGTH`     AS `Avg_row_length`,
+                `DATA_LENGTH`        AS `Data_length`,
+                `MAX_DATA_LENGTH`    AS `Max_data_length`,
+                `INDEX_LENGTH`       AS `Index_length`,
+                `DATA_FREE`          AS `Data_free`,
+                `AUTO_INCREMENT`     AS `Auto_increment`,
+                `CREATE_TIME`        AS `Create_time`,
+                `UPDATE_TIME`        AS `Update_time`,
+                `CHECK_TIME`         AS `Check_time`,
+                `TABLE_COLLATION`    AS `Collation`,
+                `CHECKSUM`           AS `Checksum`,
+                `CREATE_OPTIONS`     AS `Create_options`,
+                `TABLE_COMMENT`      AS `Comment`
+            FROM `information_schema`.`TABLES` t
+            WHERE `TABLE_SCHEMA` COLLATE utf8_bin
+                IN ('jy')
+                 ORDER BY Name ASC LIMIT 250 OFFSET 0;
+# Time: 2018-11-30T08:34:09.394737Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    30
+# Query_time: 0.000217  Lock_time: 0.000086 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566849;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='EVENT';
+# Time: 2018-11-30T08:34:09.395437Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    30
+# Query_time: 0.000173  Lock_time: 0.000055 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566849;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T08:34:09.398996Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    30
+# Query_time: 0.000223  Lock_time: 0.000086 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566849;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='EVENT';
+# Time: 2018-11-30T08:34:09.399638Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    30
+# Query_time: 0.000176  Lock_time: 0.000058 Rows_sent: 1  Rows_examined: 59
+SET timestamp=1543566849;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''%''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2018-11-30T08:34:09.577702Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    32
+# Query_time: 0.062866  Lock_time: 0.000096 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1543566849;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`;
+# Time: 2018-11-30T08:34:09.670048Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    32
+# Query_time: 0.091328  Lock_time: 0.000140 Rows_sent: 5  Rows_examined: 40
+SET timestamp=1543566849;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`, (SELECT DB_first_level FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t ORDER BY DB_first_level ASC LIMIT 0, 100) t2 WHERE TRUE AND 1 = LOCATE(CONCAT(DB_first_level, '_'), CONCAT(SCHEMA_NAME, '_')) ORDER BY SCHEMA_NAME ASC;
+# Time: 2018-11-30T08:34:09.672469Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    32
+# Query_time: 0.001881  Lock_time: 0.000105 Rows_sent: 1  Rows_examined: 0
+SET timestamp=1543566849;
+SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='jy' AND `TABLE_TYPE`='BASE TABLE';
+# Time: 2018-11-30T08:34:09.674944Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    32
+# Query_time: 0.001877  Lock_time: 0.000094 Rows_sent: 1  Rows_examined: 0
+SET timestamp=1543566849;
+SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='jy' AND `TABLE_TYPE`!='BASE TABLE';
+# Time: 2018-11-30T08:34:09.686308Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    32
+# Query_time: 0.010735  Lock_time: 0.004567 Rows_sent: 1  Rows_examined: 48
+SET timestamp=1543566849;
+SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` COLLATE utf8_bin='jy' AND `ROUTINE_TYPE`='FUNCTION';
+# Time: 2018-11-30T08:34:09.688843Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    32
+# Query_time: 0.001904  Lock_time: 0.000232 Rows_sent: 1  Rows_examined: 48
+SET timestamp=1543566849;
+SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` COLLATE utf8_bin='jy'AND `ROUTINE_TYPE`='PROCEDURE';
+# Time: 2018-11-30T08:34:09.690826Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    32
+# Query_time: 0.001448  Lock_time: 0.000735 Rows_sent: 1  Rows_examined: 0
+SET timestamp=1543566849;
+SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`EVENTS` WHERE `EVENT_SCHEMA` COLLATE utf8_bin='jy';
+# Time: 2018-11-30T08:34:09.735539Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    32
+# Query_time: 0.044237  Lock_time: 0.000090 Rows_sent: 1  Rows_examined: 15
+SET timestamp=1543566849;
+SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t;
+# Time: 2018-11-30T08:34:09.782276Z
+# User@Host: root[root] @  [172.23.0.4]  Id:    32
+# Query_time: 0.046254  Lock_time: 0.000146 Rows_sent: 1  Rows_examined: 15
+SET timestamp=1543566849;
+SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t;
